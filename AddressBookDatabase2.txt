@@ -1,0 +1,37 @@
+delete from AddressBook where FirstName='vijay'
+
+update AddressBook
+SET FirstName='Alfred', LastName='noble'
+WHERE City='Hyderabad';
+
+SELECT *
+  FROM AddressBook
+  WHERE City = 'Chennai';
+
+  SELECT *
+  FROM AddressBook
+  WHERE State = 'Andhra';
+
+SELECT COUNT(City)
+FROM AddressBook
+SELECT COUNT(State)
+FROM AddressBook
+
+select * from AddressBook
+
+SELECT * FROM AddressBook
+ORDER BY FirstName;
+SELECT * FROM AddressBook
+ORDER BY City;
+
+ALTER TABLE AddressBook
+ADD Type varchar(50);
+
+update AddressBook set Type='Family' where FirstName='Sri'
+update AddressBook set Type='Friend' where FirstName='Alfred'
+update AddressBook set Type='Profession' where FirstName='Ravi'
+update AddressBook set Type='Friend' where FirstName='Vijay'
+
+SELECT COUNT(*) Type
+FROM AddressBook;
+
