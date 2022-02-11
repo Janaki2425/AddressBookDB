@@ -1,0 +1,26 @@
+Create database AddressBookService   
+
+create table AddressBook
+(
+FirstName varchar(50),
+LastName varchar(50),
+Address Varchar(250),
+City varchar(250),
+State varchar(30),
+Zip varchar(6),
+PhoneNumber varchar(10),
+Email varchar(50)
+)
+
+
+
+
+select * from AddressBook
+insert into AddressBook values('Sri','varshini','332abc','Bangalore','Karnataka','299973','9665243989','avf@gmail.com')
+insert into AddressBook values('Sri','priya','8332ytsc','Chennai','Tamilnadu','600073','9668363500','acxstt@gmail.com')
+insert into AddressBook values('Ravi','varma','03892abc','Hyderabad','Andhra','833373','8663329365','irjdb@gmail.com')
+insert into AddressBook values('vijay','vikas','982abc','Chennai','Tamilnadu','600973','7937253727','cdd@gmail.com')
+
+
+
+
